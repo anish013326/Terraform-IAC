@@ -1,0 +1,15 @@
+# Ignore Terraform State files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform downloaded plugins
+.terraform/
+
+# Ignore Secret Keys & Environment files
+terra-key-ce2
+.env*
+*.pem
+ter_secret.txt
+
+# Ignore tfvars 
+*.tfvars
